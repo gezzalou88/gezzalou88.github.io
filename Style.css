@@ -3,16 +3,14 @@ body {
 	background: #000000;
 	color: #FFFFFF;
 	position: relative;
+	overflow-x:hidden;
 }
 .jumbotron {
-	margin:10px;
-	width: 100%;
+	margin-top:15px;
 	background: url("images/Laptop.jpg");
 	background-size: cover;
-	background-position: center;
 	font-family: Lobster;
 	text-align: center;
-	min-height: 100vh;
 }
 .social {
 	display: inline;
@@ -24,28 +22,18 @@ body {
 	margin-bottom: 0px;
 }
 #AboutMe {
-	min-height: 100vh;
 	background: #7C7A7A;
-	padding-top:75px;
+	padding-top:50px;
 }
 #Portfolio {
-	min-height: 100vh;
 	background: #FF5D73;
-	padding-top:75px;
+	padding-top:50px;
 }
 #Contact {
-	min-height: 100vh;
 	background: #494949;
-	padding-top:75px;
+	padding-top:50px;;
+	padding-bottom:50px;
 }
-.rowheight {
-	min-height: 100vh;
-	position: relative;
-}
-#header {
-	vertical-align: middle;
-	position: absolute; top: 10%;
-	}
 .imgborder {
     border-color: white;
     border-width: 10px;
@@ -53,9 +41,5 @@ body {
   }
   footer {
   	background-color: #000000;
-  }
-  .portplace {
-  	background-color: white;
-  	width: 300px;
   }
   
