@@ -26,17 +26,17 @@ body {
 #AboutMe {
 	min-height: 100vh;
 	background: #7C7A7A;
-	padding-top:50px;
+	padding-top:75px;
 }
 #Portfolio {
 	min-height: 100vh;
 	background: #FF5D73;
-	padding-top:50px;
+	padding-top:75px;
 }
 #Contact {
 	min-height: 100vh;
 	background: #494949;
-	padding-top:50px;
+	padding-top:75px;
 }
 .rowheight {
 	min-height: 100vh;
@@ -44,7 +44,7 @@ body {
 }
 #header {
 	vertical-align: middle;
-	position: absolute; bottom: 15%;
+	position: absolute; top: 10%;
 	}
 .imgborder {
     border-color: white;
@@ -53,5 +53,9 @@ body {
   }
   footer {
   	background-color: #000000;
+  }
+  .portplace {
+  	background-color: white;
+  	width: 300px;
   }
   
