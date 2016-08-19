@@ -38,8 +38,11 @@ body {
 	background: #494949;
 	padding-top:50px;
 }
+.rowheight {
+	min-height: 100vh;
+}
 #header {
-	Vertical-align: middle;
+	vertical-align: middle;
 	}
 .imgborder {
     border-color: white;
