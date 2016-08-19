@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	background: black;
+	color: white;
+}
+.jumbotron {
+	background: url("images/laptop.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: Lobster;
+	color: white;
+	text-align: center;
+}
+.social {
+	display: inline;
+}
+.img-responsive {
+	display: inline;
+	}
+.navbar {
+	margin-bottom: 0px;
+	}
