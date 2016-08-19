@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	background: #000000;
 	color: #FFFFFF;
+	position: relative;
 }
 .jumbotron {
 	margin:10px;
@@ -25,12 +26,24 @@ body {
 #AboutMe {
 	min-height: 100vh;
 	background: #7C7A7A;
+	padding-top:50px;
 }
 #Portfolio {
 	min-height: 100vh;
 	background: #FF5D73;
+	padding-top:50px;
 }
 #Contact {
 	min-height: 100vh;
 	background: #494949;
+	padding-top:50px;
 }
+#Header {
+	Vertical-align: middle;
+	}
+.imgborder {
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+  }
+  
