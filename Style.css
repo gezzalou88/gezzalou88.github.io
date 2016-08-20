@@ -1,15 +1,17 @@
 body {
 	text-align: center;
-	background: #000000;
+	background: #00171F;
 	color: #FFFFFF;
 	position: relative;
 	overflow-x:hidden;
+	font-family: Indie Flower;
+	font-weight: bold;
 }
 .jumbotron {
-	margin-top:15px;
+	margin-top:50px;
+	margin-bottom:0px;
 	background: url("images/Laptop.jpg");
 	background-size: cover;
-	font-family: Lobster;
 	text-align: center;
 }
 .social {
@@ -22,24 +24,41 @@ body {
 	margin-bottom: 0px;
 }
 #AboutMe {
-	background: #7C7A7A;
+	background: #007EA7;
 	padding-top:50px;
+	padding-bottom:50px;
 }
+
+#AboutMe p {
+	background: #FFFFFF;
+	border-radius: 10px;
+	color: #00171F;
+	padding: 10px;
+	font-size: 17px;
+}
+
 #Portfolio {
-	background: #FF5D73;
+	background: #003459;
 	padding-top:50px;
+	padding-bottom:50px;
 }
 #Contact {
-	background: #494949;
+	background: #00171F;
 	padding-top:50px;;
 	padding-bottom:50px;
 }
 .imgborder {
-    border-color: white;
+    border-color: #FFFFFF;
     border-width: 10px;
     border-style: solid;
   }
   footer {
-  	background-color: #000000;
+  	background-color: #00171F;
   }
+  
+ .navbar-brand, .nav, .navbar {
+ 	background-color: #00171F;
+ 	border-color: #00171F;
+ }
+  
   
